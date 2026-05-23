@@ -2,6 +2,6 @@
   "code-runner.saveFileBeforeRun": true,
   "code-runner.ignoreSelection": true,
   "code-runner.executorMap": {
-    "cpp": "mkdir -p \"$workspaceRoot/build\" && cd \"$dir\" && g++ -std=c++17 -Wall -Wextra -Wpedantic -Wmissing-include-dirs \"$fileName\" -o \"$workspaceRoot/build/a.out\" && \"$workspaceRoot/build/a.out\""
+    "cpp": "mkdir -p \"$workspaceRoot/build\" && cd $dir && g++ -std=c++17 -Wall -Wextra -Wpedantic -Wmissing-include-dirs \"$fileName\" -o \"$workspaceRoot/build/a.out\" && \"$workspaceRoot/build/a.out\""
   }
 }
