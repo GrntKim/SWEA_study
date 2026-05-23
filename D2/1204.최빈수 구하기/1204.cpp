@@ -10,7 +10,6 @@ int main(void) {
     for(int t=1; t<=T; t++) {
         int tc; cin >> tc;
         map<int, int> m;
-        int ans = 0;
         for(int i=0; i<1000; i++) {
             int score; cin >> score;
             m[score]++;
