@@ -35,8 +35,6 @@ int main(void) {
             auto [h, pos] = pq.top(); 
             pq.pop();
             auto [r, c] = pos;
-            cost[r][c] = h;
-
             if(h > cost[r][c]) continue;
 
             for(int d=0; d<4; d++) {
