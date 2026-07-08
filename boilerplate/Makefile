@@ -6,7 +6,7 @@ SRC = code.cpp
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-	mkdir -p ../build
+	mkdir -p ../../build
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)
 
 run: $(TARGET)
