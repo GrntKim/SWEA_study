@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++14 -Wall -Wextra -Wpedantic -Wmissing-include-dirs
-TARGET = ../build/a.out
+TARGET = ../../build/a.out
 SRC = code.cpp
 
 all: $(TARGET)
