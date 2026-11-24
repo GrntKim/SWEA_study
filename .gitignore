@@ -1,5 +1,4 @@
 build/
 tempCodeRunnerFile.*
 .DS_Store
-Makefile
 !boilerplate/Makefile
